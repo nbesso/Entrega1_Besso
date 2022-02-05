@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Entrega1_Besso.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "Entrega1_Besso/plantillas")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

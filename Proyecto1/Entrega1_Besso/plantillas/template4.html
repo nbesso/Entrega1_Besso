@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template4</title>
+</head>
+<body>
+    La lista es:  {{lista}}
+    </br>
+    </br>
+    </br>
+    {% for numero in lista %}
+
+    {% if numero != 2 %}
+    el numero es {{numero}}
+    {% else %}
+    cuidado que el numero es: {{numero}}
+    {% endif %}
+    
+    </br>
+    {% endfor %}
+
+</body>
+</html>
